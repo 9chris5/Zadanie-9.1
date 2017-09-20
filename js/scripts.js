@@ -6,8 +6,8 @@ function getTriangleArea (a, h) {
         return "Nieprawidłowe dane";
     }
 }
-var triangle1Area = getTriangleArea(10,6);
-var triangle2Area = getTriangleArea(5,2);
-var triangle3Area = getTriangleArea(12,4);
-var triangle4Area = getTriangleArea(0,-1);
+var triangle1Area = getTriangleArea(10, 6);
+var triangle2Area = getTriangleArea(5, 2);
+var triangle3Area = getTriangleArea(12, 4);
+var triangle4Area = getTriangleArea(0, -1);
 console.log("Pole 1: " + triangle1Area + ", pole 2: " + triangle2Area + ", pole 3: " + triangle3Area + ", pole 4: " + triangle4Area + ".");
